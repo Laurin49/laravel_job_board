@@ -9,7 +9,7 @@
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
-    <body>
+    <body class="max-w-3xl mx-auto mt-10 bg-slate-200 text-slate-700">
         {{ $slot }}
     </body>
 </html>
